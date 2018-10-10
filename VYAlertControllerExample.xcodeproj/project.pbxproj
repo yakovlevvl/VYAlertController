@@ -9,19 +9,58 @@
 /* Begin PBXBuildFile section */
 		F568B62A215D3BBB004C22CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568B629215D3BBB004C22CF /* AppDelegate.swift */; };
 		F568B62C215D3BBB004C22CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568B62B215D3BBB004C22CF /* ViewController.swift */; };
-		F568B62F215D3BBB004C22CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F568B62D215D3BBB004C22CF /* Main.storyboard */; };
 		F568B631215D3BBD004C22CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F568B630215D3BBD004C22CF /* Assets.xcassets */; };
 		F568B634215D3BBD004C22CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F568B632215D3BBD004C22CF /* LaunchScreen.storyboard */; };
+		F568B646215D3D8F004C22CF /* VYAlertController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F568B642215D3C9F004C22CF /* VYAlertController.framework */; };
+		F568B647215D3D8F004C22CF /* VYAlertController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F568B642215D3C9F004C22CF /* VYAlertController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F568B641215D3C9F004C22CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F568B63D215D3C9F004C22CF /* VYAlertController.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F568B612215D3788004C22CF;
+			remoteInfo = VYAlertController;
+		};
+		F568B643215D3CE8004C22CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F568B63D215D3C9F004C22CF /* VYAlertController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F568B611215D3788004C22CF;
+			remoteInfo = VYAlertController;
+		};
+		F568B648215D3D8F004C22CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F568B63D215D3C9F004C22CF /* VYAlertController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F568B611215D3788004C22CF;
+			remoteInfo = VYAlertController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F568B64A215D3D8F004C22CF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F568B647215D3D8F004C22CF /* VYAlertController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F568B626215D3BBB004C22CF /* VYAlertControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VYAlertControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F568B629215D3BBB004C22CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F568B62B215D3BBB004C22CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F568B62E215D3BBB004C22CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F568B630215D3BBD004C22CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F568B633215D3BBD004C22CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F568B635215D3BBD004C22CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F568B63D215D3C9F004C22CF /* VYAlertController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VYAlertController.xcodeproj; path = ../VYAlertController/VYAlertController.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F568B646215D3D8F004C22CF /* VYAlertController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +78,7 @@
 		F568B61D215D3BBB004C22CF = {
 			isa = PBXGroup;
 			children = (
+				F568B63D215D3C9F004C22CF /* VYAlertController.xcodeproj */,
 				F568B628215D3BBB004C22CF /* VYAlertControllerExample */,
 				F568B627215D3BBB004C22CF /* Products */,
 			);
@@ -56,12 +97,19 @@
 			children = (
 				F568B629215D3BBB004C22CF /* AppDelegate.swift */,
 				F568B62B215D3BBB004C22CF /* ViewController.swift */,
-				F568B62D215D3BBB004C22CF /* Main.storyboard */,
 				F568B630215D3BBD004C22CF /* Assets.xcassets */,
 				F568B632215D3BBD004C22CF /* LaunchScreen.storyboard */,
 				F568B635215D3BBD004C22CF /* Info.plist */,
 			);
 			path = VYAlertControllerExample;
+			sourceTree = "<group>";
+		};
+		F568B63E215D3C9F004C22CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F568B642215D3C9F004C22CF /* VYAlertController.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,10 +122,13 @@
 				F568B622215D3BBB004C22CF /* Sources */,
 				F568B623215D3BBB004C22CF /* Frameworks */,
 				F568B624215D3BBB004C22CF /* Resources */,
+				F568B64A215D3D8F004C22CF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F568B644215D3CE8004C22CF /* PBXTargetDependency */,
+				F568B649215D3D8F004C22CF /* PBXTargetDependency */,
 			);
 			name = VYAlertControllerExample;
 			productName = VYAlertControllerExample;
@@ -110,12 +161,28 @@
 			mainGroup = F568B61D215D3BBB004C22CF;
 			productRefGroup = F568B627215D3BBB004C22CF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F568B63E215D3C9F004C22CF /* Products */;
+					ProjectRef = F568B63D215D3C9F004C22CF /* VYAlertController.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F568B625215D3BBB004C22CF /* VYAlertControllerExample */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F568B642215D3C9F004C22CF /* VYAlertController.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = VYAlertController.framework;
+			remoteRef = F568B641215D3C9F004C22CF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F568B624215D3BBB004C22CF /* Resources */ = {
@@ -124,7 +191,6 @@
 			files = (
 				F568B634215D3BBD004C22CF /* LaunchScreen.storyboard in Resources */,
 				F568B631215D3BBD004C22CF /* Assets.xcassets in Resources */,
-				F568B62F215D3BBB004C22CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,15 +208,20 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		F568B62D215D3BBB004C22CF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F568B62E215D3BBB004C22CF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		F568B644215D3CE8004C22CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VYAlertController;
+			targetProxy = F568B643215D3CE8004C22CF /* PBXContainerItemProxy */;
 		};
+		F568B649215D3D8F004C22CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VYAlertController;
+			targetProxy = F568B648215D3D8F004C22CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		F568B632215D3BBD004C22CF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,6 +356,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44RWYRHXW5;
 				INFOPLIST_FILE = VYAlertControllerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +364,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yakovlev.VYAlertControllerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,6 +375,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44RWYRHXW5;
 				INFOPLIST_FILE = VYAlertControllerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +383,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yakovlev.VYAlertControllerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
