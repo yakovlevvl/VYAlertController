@@ -316,7 +316,7 @@ public final class VYAlertController: UIViewController {
         if cancelActions.count == 1 {
             if actions.count > 1 {
                 let cancelAction = cancelActions.first!
-                let actionIndex = actions.index {
+                let actionIndex = actions.firstIndex {
                     $0.style == .cancel
                 }
                 actions.remove(at: actionIndex!)
