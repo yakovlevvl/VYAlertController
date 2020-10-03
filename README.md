@@ -4,9 +4,9 @@ VYAlertController is a simple and easily customizable alert written in Swift, wh
 
 <br />
 
-<a href="url"><img src="https://github.com/yakovlevvl/VYAlertController/blob/master/Content/1.gif" align="center" height="514" width="288" ></a>
-<a href="url"><img src="https://github.com/yakovlevvl/VYAlertController/blob/master/Content/2.gif" align="center" height="514" width="288" ></a>
-<a href="url"><img src="https://github.com/yakovlevvl/VYAlertController/blob/master/Content/3.gif" align="center" height="514" width="288" ></a>
+<a href="url"><img src="https://github.com/yakovlevvl/VYAlertController/blob/master/Content/1.gif" align="center" height="595" width="274" ></a>
+<a href="url"><img src="https://github.com/yakovlevvl/VYAlertController/blob/master/Content/2.gif" align="center" height="595" width="274" ></a>
+<a href="url"><img src="https://github.com/yakovlevvl/VYAlertController/blob/master/Content/3.gif" align="center" height="595" width="274" ></a>
 
 <br />
 
